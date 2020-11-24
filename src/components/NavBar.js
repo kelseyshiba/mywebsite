@@ -2,15 +2,15 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Nav } from 'react-bootstrap';
 
-function NavBar(){
+const NavBar = () => {
     return (
         <div>
             <Nav>
-                <Nav.Link>Home</Nav.Link>   
-                <Nav.Link as={NavLink}>About</Nav.Link>
-                <Nav.Link as={NavLink}>Projects</Nav.Link>
-                <Nav.Link as={NavLink}>Blog</Nav.Link>
-                <Nav.Link as={NavLink}>Contact</Nav.Link>
+                <NavLink to='/' exact>Home</NavLink>   
+                <NavLink to='/about'>About</NavLink>
+                <NavLink to='/projects'>Projects</NavLink>
+                <NavLink to='/blog'>Blog</NavLink>
+                <NavLink to='/contact'>Contact</NavLink>
             </Nav>
         </div>
     )    
