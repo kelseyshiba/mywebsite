@@ -1,13 +1,18 @@
 import './App.css';
-import './components/NavBar.js'
+import NavBar from './components/NavBar.js'
+import MainContainer from './components/MainContainer.js';
+import About from './components/About.js';
+import { Switch, Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
       <div id="navbar"><NavBar /></div>
-      <header className="App-header">
-        <h1>Kelsey Shiba</h1>
-      </header>
+      <Switch>
+        <Route exact path='/' component={MainContainer}/>
+        <Route exact path='/about'component={About}/>
+      </Switch>
     </div>
   );
 }
