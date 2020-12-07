@@ -7,12 +7,13 @@ import Projects from './components/Projects.js';
 import Blog from './components/Blog.js';
 import { Switch, Route } from 'react-router-dom';
 import HeaderImage from './components/HeaderImage.js'
+import Footer from './components/Footer.js';
 
 function App() {
   return (
     <div className="App">
       <div id="navbar"><NavBar /></div>
-      <div><HeaderImage /></div>
+      <div id='headerImg'><HeaderImage /></div>
       <Switch>
         <Route exact path='/' component={MainContainer}/>
         <Route exact path='/about'component={About}/>
@@ -20,6 +21,7 @@ function App() {
         <Route exact path='/contact'component={Contact}/>
         <Route exact path='/blog'component={Blog}/>
       </Switch>
+      <div id='footer'><Footer /></div>
     </div>
   );
 }
