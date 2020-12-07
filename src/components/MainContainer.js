@@ -5,7 +5,6 @@ const MainContainer = () => {
     return (
         <div>
         <header>
-            <h1 className='text-center'>Kelsey Shiba</h1>
         </header>
         <Container className='justify-content-center'>
         <Row>

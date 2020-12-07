@@ -4,7 +4,7 @@ import Image from 'react-bootstrap/Image';
 const HeaderImage = () => {
     return(
         <div className='container'>
-        <Image src='/images/shiba.jpg' fluid/>
+            <Image src='/images/shibaheader.png' fluid/>
         </div>
     )
 }
