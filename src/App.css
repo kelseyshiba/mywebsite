@@ -43,7 +43,19 @@
   opacity: 30%;
 }
 
+.mainCard {
+  background: #1B2219 !important;
+}
+
+.cardButton {
+  background: #1B2219 !important;
+}
+
 #footer {
-  color: #ffffff;
-  opacity: 30%;
+  padding: 20px;
+}
+
+#footer img {
+  height: 100px;
+  width: 100px;
 }

@@ -4,38 +4,28 @@ import { Card, Button, Container, Row, Col } from 'react-bootstrap';
 const MainContainer = () => {
     return (
         <div>
-        <header>
-        </header>
-        <Container className='justify-content-center'>
+        <Container>
         <Row>
             <Col>
-                <Card style={{ width: '25rem', height: '15rem' }}>
-                    <Card.Title>About</Card.Title>
-                    <Card.Text>More About Me</Card.Text>
-                    <Button href='/about' variant="primary">Learn More</Button>
+                <Card className='mainCard'>
+                    <Button href='/about' className='cardButton'>About</Button>
                 </Card>
             </Col>
             <Col>
-                <Card style={{ width: '25rem', height: '15rem' }}>
-                    <Card.Title>Projects</Card.Title>
-                    <Card.Text>See Some of My Creations</Card.Text>
-                    <Button href='/about' variant="primary">Learn More</Button>
+                <Card className='mainCard'>
+                    <Button href='/projects' className='cardButton'>Projects</Button>
                 </Card>
             </Col>
         </Row>
         <Row>
             <Col>
-                <Card style={{ width: '25rem', height: '15rem' }}>
-                    <Card.Title>Blog</Card.Title>
-                    <Card.Text>Read My Technical Blog Posts</Card.Text>
-                    <Button href='/about' variant="primary">Learn More</Button>
+                <Card className='mainCard'>
+                    <Button href='/blog' className='cardButton'>Blog</Button>
                 </Card>
             </Col>
             <Col>
-                <Card style={{ width: '25rem', height: '15rem' }}>
-                    <Card.Title>Contact</Card.Title>
-                    <Card.Text>Get In Touch</Card.Text>
-                    <Button href='/about' variant="primary">Learn More</Button>
+                <Card className='mainCard'>
+                    <Button href='/contact' className='cardButton'>Contact</Button>
                 </Card>
             </Col>
         </Row>

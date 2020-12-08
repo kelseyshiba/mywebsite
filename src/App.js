@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <div id="navbar"><NavBar /></div>
-      <div id='headerImg'><HeaderImage /></div>
+      <div id='headerImg'><HeaderImage /></div><br></br>
       <Switch>
         <Route exact path='/' component={MainContainer}/>
         <Route exact path='/about'component={About}/>
