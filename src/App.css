@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: #1B2219;
+  color: #ffffff;
 }
 
 .App-logo {
@@ -53,9 +54,11 @@
 
 #footer {
   padding: 20px;
+  color: #ffffff;
 }
 
 #footer img {
   height: 100px;
   width: 100px;
+  opacity: 100%;
 }
