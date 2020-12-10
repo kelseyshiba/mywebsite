@@ -40,8 +40,11 @@
 }
 
 #bio {
-  color: #ffffff;
-  opacity: 30%;
+  color: #ffffff; 
+}
+
+.bio-img {
+  align-content: center;
 }
 
 .mainCard {
@@ -54,6 +57,7 @@
 
 #footer {
   padding: 20px;
+  margin: 10px 0px;
   color: #ffffff;
 }
 
@@ -61,4 +65,8 @@
   height: 100px;
   width: 100px;
   opacity: 100%;
+}
+
+.navlink {
+  color: #ffffff !important;
 }
