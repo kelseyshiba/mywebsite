@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const MainContainer = () => {
     return (
@@ -8,7 +9,9 @@ const MainContainer = () => {
         <Row>
             <Col>
                 <Card className='mainCard'>
-                    <Button href='/about' className='cardButton'>About</Button>
+                    <Link to='/about'>
+                        <Button href='/about' className='cardButton'>About</Button>
+                    </Link>
                 </Card>
             </Col>
             <Col>
