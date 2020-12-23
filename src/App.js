@@ -9,7 +9,9 @@ import { Switch, Route } from 'react-router-dom';
 import HeaderImage from './components/HeaderImage.js'
 import Footer from './components/Footer.js';
 
+
 function App() {
+
   return (
     <div className="App">
       <div id="navbar"><NavBar /></div>
