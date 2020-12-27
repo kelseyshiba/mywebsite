@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Col, Row } from 'react-bootstrap';
+import { Image, Col, Row, Link } from 'react-bootstrap';
 
 
 const Footer = () => {
@@ -7,15 +7,15 @@ const Footer = () => {
         <div id='footer'>
             <Row>
             <Col>
-                <a href='https://www.github.com/kelseyshiba'>
-                <Image src='/images/github-logo.webp'/>
-                </a>
+                <Link to='https://www.github.com/kelseyshiba'>
+                    <Image src='/images/github-logo.webp'/>
+                </Link>
                 </Col>
             <Col className='footerText'>© Kelsey Shiba 2020</Col>
             <Col>
-                <a href='https://www.linkedin.com/in/kelsey-shiba'>
-                <Image src='/images/linkedin-logo.png'/>
-                </a>
+                <Link to='https://www.linkedin.com/in/kelsey-shiba'>
+                    <Image src='/images/linkedin-logo.png'/>
+                </Link>
             </Col>
             </Row>
         </div>
