@@ -7,15 +7,15 @@ const Footer = () => {
         <div id='footer'>
             <Row>
             <Col>
-                <Link to='https://github.com/kelseyshiba'>
-                    <Image src='/images/github-logo.webp'/>
-                </Link>
+                <a href='https://github.com/kelseyshiba'>
+                    <Image src='/images/github-logo.webp'/>  
+                </a>  
             </Col>
             <Col className='footerText'>© Kelsey Shiba 2020</Col>
             <Col>
-                <Link to='https://www.linkedin.com/in/kelsey-shiba'>
+                <a href='https://www.linkedin.com/in/kelsey-shiba'>
                     <Image src='/images/linkedin-logo.png'/>
-                </Link>
+                </a>
             </Col>
             </Row>
         </div>
