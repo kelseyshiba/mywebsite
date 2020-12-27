@@ -16,7 +16,7 @@ const MainContainer = () => {
             </Col>
             <Col>
                 <Card className='mainCard'>
-                    <Button href='/projects' className='cardButton'>Projects</Button>
+                    <Button as={Link} to='/projects' className='cardButton'>Projects</Button>
                 </Card>
             </Col>
         </Row>
