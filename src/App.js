@@ -23,7 +23,7 @@ function App() {
         <Route exact path='/contact'component={Contact}/>
         <Route exact path='/blog'component={Blog}/>
       </Switch>
-      <div id='footer'><Footer /></div>
+      <div><Footer /></div>
     </div>
   );
 }
