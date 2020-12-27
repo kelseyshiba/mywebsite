@@ -1,6 +1,6 @@
 import React from 'react';
-import { Image, Col, Row, Link } from 'react-bootstrap';
-
+import { Image, Col, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return(
