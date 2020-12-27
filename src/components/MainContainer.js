@@ -9,9 +9,7 @@ const MainContainer = () => {
         <Row>
             <Col>
                 <Card className='mainCard'>
-                    <Link to='/about'>
-                        <Button href='/about' className='cardButton'>About</Button>
-                    </Link>
+                    <Button as={Link} to='/about' className='cardButton'>About</Button>  
                 </Card>
             </Col>
             <Col>
@@ -23,12 +21,12 @@ const MainContainer = () => {
         <Row>
             <Col>
                 <Card className='mainCard'>
-                    <Button href='/blog' className='cardButton'>Blog</Button>
+                    <Button as={Link} to='/blog' className='cardButton'>Blog</Button>
                 </Card>
             </Col>
             <Col>
                 <Card className='mainCard'>
-                    <Button href='/contact' className='cardButton'>Contact</Button>
+                    <Button as={Link} to='/contact' className='cardButton'>Contact</Button>
                 </Card>
             </Col>
         </Row>
