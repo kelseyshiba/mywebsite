@@ -7,7 +7,7 @@ const Footer = () => {
         <div id='footer'>
             <Row>
             <Col>
-                <Link to='https://www.github.com/kelseyshiba'>
+                <Link to='https://github.com/kelseyshiba'>
                     <Image src='/images/github-logo.webp'/>
                 </Link>
                 </Col>
