@@ -1,5 +1,6 @@
-import { Form, Button } from 'react-bootstrap';
-import React, { useState } from 'react';
+//import { Form, Button } from 'react-bootstrap';
+//import React, { useState } from 'react';
+import React from 'react';
 
 const Contact = () => {
 //     const initialState = {name: '', email: '', message: ''}
