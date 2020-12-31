@@ -38,6 +38,20 @@ const Blog = () => {
                 </Card>
                 </Col>
             </Row>
+            <Row>
+                <Col>
+                <Card style={{ width: '18rem', color: 'black'}}>
+                    <Card.Img variant="top" src="/images/javascriptinterview.jpeg" />
+                    <Card.Body>
+                        <Card.Title>Reflections from a Javascript Interview</Card.Title>
+                        <Card.Text>Published by Javascript in Plain English</Card.Text>
+                    <a href='https://medium.com/javascript-in-plain-english/reflections-from-a-javascript-interview-181d4bad00af' target='_blank' rel='noreferrer'>
+                    <Button variant="primary">Read It</Button>
+                    </a>
+                    </Card.Body>
+                </Card>
+                </Col>
+            </Row>
         </div>
     )
 }
