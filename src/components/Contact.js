@@ -12,7 +12,7 @@ const Contact = () => {
     }
     const handleSubmit = e => {
         e.preventDefault()
-        fetch('https://portfolio-backend-shiba.herokuapp.com/send', {
+        fetch('https://powerful-tor-63835.herokuapp.com/send', {
             method: "POST",
             body: JSON.stringify(eachEntry),
             headers: {
@@ -31,7 +31,7 @@ const Contact = () => {
         })
         
     }
-   console.log(eachEntry)
+
     return (
         <div>
             <h1>Contact</h1><br></br>
