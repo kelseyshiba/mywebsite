@@ -51,6 +51,18 @@ const Blog = () => {
                     </Card.Body>
                 </Card>
                 </Col>
+                <Col>
+                <Card style={{ width: '18rem', color: 'black'}}>
+                    <Card.Img variant="top" src="/images/BFS.png" />
+                    <Card.Body>
+                        <Card.Title>A Simple Guide to Breadth First Search in JavaScript</Card.Title>
+                        <Card.Text>Published by Javascript in Plain English</Card.Text>
+                <a href='https://medium.com/javascript-in-plain-english/breadth-first-breath-first-search-482eb6ec7c3c' target='blank' rel='noreferrer'>
+                <Button variant="primary">Read It</Button>
+                </a>
+                </Card.Body>
+                </Card>
+                </Col>
             </Row>
         </div>
     )
