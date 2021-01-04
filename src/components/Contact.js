@@ -71,11 +71,10 @@ const Contact = () => {
               Submit
             </Button>
             </Form>
+        <p>Or send me an email at developerkelseyshiba@gmail.com.</p>
         </div>
+   
     )
-    // return (
-    //     <div>Send me an email at developerkelseyshiba@gmail.com.</div>
-    // )
 }
 
 export default Contact;
