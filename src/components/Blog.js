@@ -37,7 +37,7 @@ const Blog = () => {
                     </Card.Body>
                 </Card>
                 </Col>
-            </Row>
+            </Row><br></br>
             <Row>
                 <Col>
                 <Card style={{ width: '18rem', color: 'black'}}>
