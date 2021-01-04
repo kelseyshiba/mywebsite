@@ -10,7 +10,7 @@ const Blog = () => {
             I'm also happy to have a few publications available in The Startup!</p>
             <a href='https://kelsey-shiba.medium.com' target='_blank' rel='noreferrer'>
                 <Button className='cardButton'>Go To Blog</Button>
-            </a><br></br>
+            </a><br></br><br></br>
             <h2>Publications</h2>
             <Row>
                 <Col>
