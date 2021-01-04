@@ -7,7 +7,7 @@ const Blog = () => {
         <div className='container'>
             <h1>Blog</h1>
             <p>I have lots of content for someone beginning their software engineering journey.
-            I'm also happy to have a few publications available in The Startup!</p>
+            I'm also happy to have a few published. </p>
             <a href='https://kelsey-shiba.medium.com' target='_blank' rel='noreferrer'>
                 <Button className='cardButton'>Go To Blog</Button>
             </a><br></br><br></br>
