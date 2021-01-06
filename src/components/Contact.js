@@ -70,7 +70,7 @@ const Contact = () => {
             <Button variant="success" type="submit">
               Submit
             </Button>
-            </Form>
+            </Form><br></br>
         <p>Or send me an email at developerkelseyshiba@gmail.com.</p>
         </div>
    
