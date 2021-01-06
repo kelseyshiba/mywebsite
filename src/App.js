@@ -8,11 +8,12 @@ import Blog from './components/Blog.js';
 import { Switch, Route } from 'react-router-dom';
 import HeaderImage from './components/HeaderImage.js'
 import Footer from './components/Footer.js';
-
+import { Helmet } from 'react-helmet';
 
 function App() {
 
   return (
+    <Helmet>
     <div className="App">
       <div id="navbar"><NavBar /></div>
       <div id='headerImg'><HeaderImage /></div><br></br>
@@ -25,6 +26,7 @@ function App() {
       </Switch>
       <div><Footer /></div>
     </div>
+    </Helmet>
   );
 }
 
