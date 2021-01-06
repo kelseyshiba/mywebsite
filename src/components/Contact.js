@@ -1,7 +1,7 @@
 import { Form, Button } from 'react-bootstrap';
 import React, { useState } from 'react';
 //import React from 'react';
-
+const url = (/^.*localhost.*$/).test(window.location.href) ? 'http://localhost:3002' : 'https://powerful-tor-63835.herokuapp.com'
 const Contact = () => {
     const initialState = {name: '', email: '', message: ''}
     const [eachEntry, setEachEntry] = useState(initialState)
@@ -12,7 +12,7 @@ const Contact = () => {
     }
     const handleSubmit = e => {
         e.preventDefault()
-        fetch('https://powerful-tor-63835.herokuapp.com/send', {
+        fetch(url + '/send', {
             method: "POST",
             body: JSON.stringify(eachEntry),
             headers: {
