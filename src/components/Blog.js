@@ -64,6 +64,20 @@ const Blog = () => {
                 </Card>
                 </Col>
             </Row>
+            <Row>
+                <Col>
+                <Card style={{ width: '18rem', color: 'black'}}>
+                    <Card.Img variant="top" src="/images/dictionaryofterms.jpeg" />
+                    <Card.Body>
+                        <Card.Title>Dictionary of Terms for New Developers</Card.Title>
+                        <Card.Text>Published by The Startup</Card.Text>
+                    <a href='https://medium.com/swlh/dictionary-of-terms-for-new-developers-6c7ab55f2c6c' target='_blank' rel='noreferrer'>
+                    <Button variant="primary">Read It</Button>
+                    </a>
+                    </Card.Body>
+                </Card>
+                </Col>
+            </Row>
         </div>
     )
 }
