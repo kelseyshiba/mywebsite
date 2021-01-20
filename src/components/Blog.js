@@ -15,7 +15,7 @@ const Blog = () => {
             <Row>
                 <Col>
                 <Card style={{ width: '18rem', color: 'black' }}>
-                    <Card.Img variant="top" src="/images/easyalgorithms.jpeg" />
+                    <Card.Img variant="top" src="/images/easyalgorithms.jpeg" alt='algorithms'/>
                     <Card.Body>
                         <Card.Title>Easy Algorithms Tips & Tricks</Card.Title>
                         <Card.Text>Published by The Startup</Card.Text>
@@ -27,7 +27,7 @@ const Blog = () => {
                 </Col>
                 <Col>
                 <Card style={{ width: '18rem', color: 'black'}}>
-                    <Card.Img variant="top" src="/images/linkedlists.jpeg" />
+                    <Card.Img variant="top" src="/images/linkedlists.jpeg" alt='linked lists' />
                     <Card.Body>
                         <Card.Title>Linked Lists for Visual Learners</Card.Title>
                         <Card.Text>Published by The Startup</Card.Text>
@@ -41,7 +41,7 @@ const Blog = () => {
             <Row>
                 <Col>
                 <Card style={{ width: '18rem', color: 'black'}}>
-                    <Card.Img variant="top" src="/images/javascriptinterview.jpeg" />
+                    <Card.Img variant="top" src="/images/javascriptinterview.jpeg" alt='javascript interview' />
                     <Card.Body>
                         <Card.Title>Reflections from a Javascript Interview</Card.Title>
                         <Card.Text>Published by Javascript in Plain English</Card.Text>
@@ -53,7 +53,7 @@ const Blog = () => {
                 </Col>
                 <Col>
                 <Card style={{ width: '18rem', color: 'black'}}>
-                    <Card.Img variant="top" src="/images/BFS.png" />
+                    <Card.Img variant="top" src="/images/BFS.png" alt='breadth first search'/>
                     <Card.Body>
                         <Card.Title>A Simple Guide to Breadth First Search in JavaScript</Card.Title>
                         <Card.Text>Published by Javascript in Plain English</Card.Text>
@@ -67,11 +67,23 @@ const Blog = () => {
             <Row>
                 <Col>
                 <Card style={{ width: '18rem', color: 'black'}}>
-                    <Card.Img variant="top" src="/images/dictionaryofterms.jpeg" />
+                    <Card.Img variant="top" src="/images/dictionaryofterms.jpeg" alt='dictionary of terms'/>
                     <Card.Body>
                         <Card.Title>Dictionary of Terms for New Developers</Card.Title>
                         <Card.Text>Published by The Startup</Card.Text>
                     <a href='https://medium.com/swlh/dictionary-of-terms-for-new-developers-6c7ab55f2c6c' target='_blank' rel='noreferrer'>
+                    <Button variant="primary">Read It</Button>
+                    </a>
+                    </Card.Body>
+                </Card>
+                </Col>
+                <Col>
+                <Card style={{ width: '18rem', color: 'black'}}>
+                    <Card.Img variant="top" src="/images/nontechnical.jpg" alt='non-technical'/>
+                    <Card.Body>
+                        <Card.Title>Dictionary of Terms for New Developers</Card.Title>
+                        <Card.Text>Published by Level Up Coding</Card.Text>
+                    <a href='https://kelsey-shiba.medium.com/non-technical-questions-at-my-technical-interview-9f9e31b630a2' target='_blank' rel='noreferrer'>
                     <Button variant="primary">Read It</Button>
                     </a>
                     </Card.Body>
