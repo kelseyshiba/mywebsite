@@ -9,7 +9,10 @@ const About = () => {
             <h1 className='text-center'>Biography</h1>
             <Row>
                 <Col>
-                    <Image className='bio-img text-center' src='/images/shiba-bricks.jpg'/>
+                    <Image 
+                        className='bio-img text-center' 
+                        src='/images/shiba-bricks.jpg'
+                        alt='kelsey shiba profile'/>
                 </Col>
                 <Col>
                     <p><strong>Kelsey Shiba</strong> is a full stack software engineer, experienced administrator, project manager, designer, and musician who is known for her expertise in personalization, organization, and optimization. Kelsey thrives supporting visionaries and curious minds. She enjoys helping create new and exciting products and programs for her clients and customers in a collaborative way.</p>
