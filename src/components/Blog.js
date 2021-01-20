@@ -79,7 +79,7 @@ const Blog = () => {
                 </Col>
                 <Col>
                 <Card style={{ width: '18rem', color: 'black'}}>
-                    <Card.Img variant="top" src="/images/nontechnical.jpg" alt='non-technical'/>
+                    <Card.Img variant="top" src="/images/nontechnical.jpeg" alt='non-technical'/>
                     <Card.Body>
                         <Card.Title>Dictionary of Terms for New Developers</Card.Title>
                         <Card.Text>Published by Level Up Coding</Card.Text>
