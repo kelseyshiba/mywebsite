@@ -81,7 +81,7 @@ const Blog = () => {
                 <Card style={{ width: '18rem', color: 'black'}}>
                     <Card.Img variant="top" src="/images/nontechnical.jpeg" alt='non-technical'/>
                     <Card.Body>
-                        <Card.Title>Dictionary of Terms for New Developers</Card.Title>
+                        <Card.Title>Non-Technical Questions at My Technical Interview</Card.Title>
                         <Card.Text>Published by Level Up Coding</Card.Text>
                     <a href='https://kelsey-shiba.medium.com/non-technical-questions-at-my-technical-interview-9f9e31b630a2' target='_blank' rel='noreferrer'>
                     <Button variant="primary">Read It</Button>
